@@ -4,7 +4,7 @@ Este repositorio contiene el código fuente de mi **portafolio web personal**, d
 
 ## 📄 **Descripción**
 
-Este portafolio ha sido diseñado para mostrar mis **proyectos**, **habilidades** y **experiencia profesional** de una forma **clara**, **visual** y **accesible**.  
+Este portafolio web ha sido diseñado para mostrar mis **proyectos**, **habilidades** y **experiencia profesional** de una forma **clara**, **visual** y **accesible**.  
 La arquitectura del proyecto es **sencilla pero escalable**, pensada para facilitar futuras actualizaciones y mantenimientos.
 
 
