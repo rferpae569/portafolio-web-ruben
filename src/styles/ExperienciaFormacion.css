@@ -1,0 +1,135 @@
+.experiencia-wrapper {
+  padding: 3rem 6vw;
+  background-color: #09214eff;
+  font-family: "Segoe UI", sans-serif;
+  box-sizing: border-box;
+}
+
+.titulo {
+  color: #ffffff;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  border-bottom: 2px solid #38bdf8;
+  padding-bottom: 0.5rem;
+}
+
+.timeline {
+  position: relative;
+  margin-left: 1.5rem;
+  border-left: 3px solid #ffffff;
+  padding-left: 2rem;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 2rem;
+  color: #e5e7eb;
+}
+
+.timeline-dot {
+  position: absolute;
+  left: -2.5rem;
+  top: 0.4rem;
+  width: 12px;
+  height: 12px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  border: 2px solid #09214eff;
+  box-shadow: 0 0 0 2px #ffffff;
+}
+
+.timeline-content h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.fecha {
+  font-weight: 500;
+  color: #a1a1aa;
+  margin: 0.3rem 0;
+}
+
+.timeline-content em {
+  font-size: 0.95rem;
+  color: #9ca3af;
+  display: block;
+  margin-bottom: 0.3rem;
+}
+
+.timeline-content p {
+  margin: 0.4rem 0;
+  line-height: 1.4;
+}
+
+.timeline-content a {
+  color: #38bdf8;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.timeline-content a:hover {
+  text-decoration: underline;
+}
+
+.tech-list {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.tech-list li {
+  background-color: #1e3a8a;
+  color: #bae6fd;
+  padding: 0.3rem 0.6rem;
+  border-radius: 0.3rem;
+  font-size: 0.85rem;
+}
+
+.timeline-container {
+  display: flex;
+  gap: 4rem;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.timeline-column {
+  flex: 1;
+  min-width: 300px;
+}
+
+.formacion-complementaria-wrapper {
+  margin: 3rem auto 0 auto;
+  padding: 0 1rem;
+  text-align: center;
+}
+
+.titulo.centered {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.centered-timeline {
+  position: relative;
+  border-left: 3px solid #ffffff;
+  padding-left: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 500px;
+  text-align: left;
+}
+
+.centered-timeline .timeline-dot {
+  left: -2.5rem;
+}
+
+.two-column-timeline {
+  display: flex;
+  gap: 4rem;
+  justify-content: center;
+}

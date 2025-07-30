@@ -1,0 +1,146 @@
+export const webProjects = [
+  {
+    title: "AlienGotchi",
+    description:
+      "En este proyecto tendremos que cuidar a nuestro Alienígena. Podremos darle de comer, de beber y limpiarlo siempre y cuando lo necesite. El fondo se ajustara en base a la hora real, por lo tanto podrá hacerse de día, de noche, amanecer y atardecer. Aparte de eso el proyecto incluye efectos de sonido e interacción visual con el alienígena.",
+    tech: [
+      { name: "HTML5", icon: "icons/html.png" },
+      { name: "CSS", icon: "icons/css.png" },
+      { name: "JavaScript", icon: "icons/javascript.png" },
+      { name: "Git", icon: "icons/Git.png" },
+    ],
+    image: "icons/AlienIconLogo.png",
+    repo: "https://github.com/rferpae569/AlienGotchi",
+    demo: "https://rferpae569.github.io/AlienGotchi/",
+    date: "mar. 2025 - abr. 2025",
+  },
+  {
+    title: "Casino",
+    description:
+      "En este proyecto veremos una web realizada con Angular que actuara de Casino Virtual y en la que habrá disponibles varias juegos y otras funciones.",
+    tech: [
+      { name: "Angular", icon: "icons/angular.png" },
+      { name: "PhpMyAdmin", icon: "icons/phpmyadmin.png" },
+      { name: "PHP", icon: "icons/php.png" },
+      { name: "Git", icon: "icons/Git.png" },
+      { name: "HTML5", icon: "icons/html.png" },
+      { name: "CSS", icon: "icons/css.png" },
+      { name: "MySQL", icon: "icons/mySql.png" },
+      { name: "TypeScript", icon: "icons/typescript.png" },
+    ],
+    image: "icons/LogoCasino.png",
+    repo: "https://github.com/rferpae569/Casino",
+    demo: "https://www.youtube.com/watch?v=mcEsuUCd7i4",
+    date: "dic. 2024 - ene. 2025",
+  },
+  {
+    title: "EscritorioVentanas",
+    description:
+      "En este proyecto, veremos un escritorio en el que se mostraran seis widget que podremos mover por el escritorio y cerrarlas dándole a la x de cada widget. Aparte de eso, tambien podremos desactivarlas o activarlas dándole a los botones ubicados en la parte inferior.",
+    tech: [
+      { name: "React", icon: "icons/react.png" },
+      { name: "Git", icon: "icons/Git.png" },
+      { name: "HTML5", icon: "icons/html.png" },
+      { name: "CSS", icon: "icons/css.png" },
+    ],
+    image: "icons/EscritorioVentanasLogo.png",
+    repo: "https://github.com/rferpae569/EscritorioVentanas",
+    demo: "https://rferpae569.github.io/EscritorioVentanas/",
+    date: "nov. 2024",
+  },
+  {
+    title: "Pokedex",
+    description:
+      "En este proyecto encontraremos una Pokedex. Gracias a ella se podrá ver el listado de algunos pokemon dándole a los botones. Aparte de eso se podrá buscar a los pokemon poniendo su nombre en el buscador.",
+    tech: [
+      { name: "HTML5", icon: "icons/html.png" },
+      { name: "CSS", icon: "icons/css.png" },
+      { name: "JavaScript", icon: "icons/javascript.png" },
+      { name: "Git", icon: "icons/Git.png" },
+    ],
+    image: "icons/pokeball.png",
+    repo: "https://github.com/rferpae569/Pokedex",
+    demo: "https://rferpae569.github.io/Pokedex/",
+    date: "nov. 2024",
+  },
+  {
+    title: "TouristSpain",
+    description:
+      "En este proyecto pretendo mostrar a través de una web realizada en Angular los monumentos mas relevantes de España.",
+    tech: [
+      { name: "Angular", icon: "icons/angular.png" },
+      { name: "Git", icon: "icons/Git.png" },
+      { name: "HTML5", icon: "icons/html.png" },
+      { name: "CSS", icon: "icons/css.png" },
+      { name: "TypeScript", icon: "icons/typescript.png" },
+    ],
+    image: "icons/TouristSpainLogo.png",
+    repo: "https://github.com/rferpae569/touristSpain",
+    demo: "https://www.youtube.com/watch?v=F0n_Dt66lVM",
+    date: "abr. 2024 - nov. 2024",
+  },
+  {
+    title: "La primitiva",
+    description:
+      "En este proyecto encontraras una web donde se generara un numero aleatorio para usarlo para la primitiva.",
+    tech: [
+      { name: "HTML5", icon: "icons/html.png" },
+      { name: "CSS", icon: "icons/css.png" },
+      { name: "JavaScript", icon: "icons/javascript.png" },
+      { name: "Git", icon: "icons/Git.png" },
+    ],
+    image: "icons/PrimitivaLogo.png",
+    repo: "https://github.com/rferpae569/Primitiva",
+    demo: "https://rferpae569.github.io/Primitiva/",
+    date: "jul. 2024",
+  },
+  {
+    title: "Calculadora",
+    description: "Este proyecto es una calculadora realizada con React + Vite",
+    tech: [
+      { name: "React", icon: "icons/react.png" },
+      { name: "Git", icon: "icons/Git.png" },
+      { name: "HTML5", icon: "icons/html.png" },
+      { name: "CSS", icon: "icons/css.png" },
+    ],
+    image: "icons/logoCalculadora.png",
+    repo: "https://github.com/rferpae569/CalculadoraReact",
+    demo: "https://rferpae569.github.io/CalculadoraReact/",
+    date: "jun. 2024",
+  },
+  {
+    title: "InfoPersonRol",
+    description:
+      "En este proyecto realizado en react + vite se nos mostrara una pequeña información sobre las habilidades de un personaje de rol. Aparte de eso, tendremos también la opción de darle a Cambiar para poder ver las habilidades de otros personajes que irán apareciendo aleatoriamente tras pulsar el botón.",
+    tech: [
+      { name: "React", icon: "icons/react.png" },
+      { name: "Git", icon: "icons/Git.png" },
+      { name: "HTML5", icon: "icons/html.png" },
+      { name: "CSS", icon: "icons/css.png" },
+    ],
+    image: "icons/IconoRol.png",
+    repo: "https://github.com/rferpae569/InfoPersonRol",
+    demo: "https://rferpae569.github.io/InfoPersonRol/",
+    date: "jun. 2024",
+  },
+  {
+    title: "AdivinaLaPelicula",
+    description:
+      "Como proyecto de fin de curso, realice una web que contenía distintos juegos relacionados con el mundo del cine. Dependiendo del juego, el objetivo del jugador es adivinar el titulo de la pelicula o responder algún dato de la misma ( Quien fue el director, quien la produjo, etc.).",
+    tech: [
+      { name: "Angular", icon: "icons/angular.png" },
+      { name: "PhpMyAdmin", icon: "icons/phpmyadmin.png" },
+      { name: "PHP", icon: "icons/php.png" },
+      { name: "Git", icon: "icons/Git.png" },
+      { name: "HTML5", icon: "icons/html.png" },
+      { name: "CSS", icon: "icons/css.png" },
+      { name: "MySQL", icon: "icons/mySql.png" },
+      { name: "TypeScript", icon: "icons/typescript.png" },
+      { name: "Boostrap", icon: "icons/boostrap.png" },
+    ],
+    image: "icons/AdivinaLapeliculaLogo.png",
+    repo: "https://github.com/rferpae569/ProyectoFinGrado",
+    demo: "",
+    date: "sept. 2023 - dic. 2023",
+  },
+];
