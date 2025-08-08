@@ -8,9 +8,9 @@ export const gameProjects = [
       { name: "cSharp", icon: "icons/cSharp.png" },
     ],
     image: "icons/parchis.png",
-    repo: "",
+    repo: "https://github.com/rferpae569/Parchis",
     demo: "https://fdzgames.itch.io/parchis",
-    date: "May. 2025 - Actualidad",
+    date: "May. 2025 - Ago. 2025",
   },
   {
     title: "TrivialCine",
