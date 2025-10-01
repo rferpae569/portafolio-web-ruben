@@ -1,18 +1,20 @@
 export const webProjects = [
   {
-    title: "AlienGotchi",
+    title: "PokeInfo",
     description:
-      "En este proyecto tendremos que cuidar a nuestro Alienígena. Podremos darle de comer, de beber y limpiarlo siempre y cuando lo necesite. El fondo se ajustara en base a la hora real, por lo tanto podrá hacerse de día, de noche, amanecer y atardecer. Aparte de eso el proyecto incluye efectos de sonido e interacción visual con el alienígena.",
+      "PokeInfo es un proyecto basado en Pokémon que permite explorar información detallada sobre los Pokémon, sus tipos, gimnasios y ligas. La aplicación proporciona una experiencia interactiva y organizada para fans de Pokémon que quieran consultar datos de manera rápida y visual.",
     tech: [
+      { name: "React", icon: "icons/react.png" },
       { name: "HTML5", icon: "icons/html.png" },
       { name: "CSS", icon: "icons/css.png" },
       { name: "JavaScript", icon: "icons/javascript.png" },
       { name: "Git", icon: "icons/Git.png" },
+
     ],
-    image: "icons/AlienIconLogo.png",
-    repo: "https://github.com/rferpae569/AlienGotchi",
-    demo: "https://rferpae569.github.io/AlienGotchi/",
-    date: "mar. 2025 - abr. 2025",
+    image: "icons/pokeball.png",
+    repo: "https://github.com/rferpae569/pokeinfo",
+    demo: "https://rferpae569.github.io/pokeinfo/",
+    date: "ago. 2025 - oct. 2025",
   },
   {
     title: "Casino",
@@ -46,21 +48,6 @@ export const webProjects = [
     image: "icons/EscritorioVentanasLogo.png",
     repo: "https://github.com/rferpae569/EscritorioVentanas",
     demo: "https://rferpae569.github.io/EscritorioVentanas/",
-    date: "nov. 2024",
-  },
-  {
-    title: "Pokedex",
-    description:
-      "En este proyecto encontraremos una Pokedex. Gracias a ella se podrá ver el listado de algunos pokemon dándole a los botones. Aparte de eso se podrá buscar a los pokemon poniendo su nombre en el buscador.",
-    tech: [
-      { name: "HTML5", icon: "icons/html.png" },
-      { name: "CSS", icon: "icons/css.png" },
-      { name: "JavaScript", icon: "icons/javascript.png" },
-      { name: "Git", icon: "icons/Git.png" },
-    ],
-    image: "icons/pokeball.png",
-    repo: "https://github.com/rferpae569/Pokedex",
-    demo: "https://rferpae569.github.io/Pokedex/",
     date: "nov. 2024",
   },
   {
