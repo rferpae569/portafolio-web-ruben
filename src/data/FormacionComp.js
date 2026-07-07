@@ -5,16 +5,6 @@ export const formacionComp = [
     institution: "Core Networks",
   },
   {
-    degree: "Google IT Support Professional Certificate (v2)",
-    date: "Jun. 2025",
-    institution: "Coursera",
-  },
-  {
-    degree: "Google Cybersecurity Professional Certificate V2",
-    date: "abr. 2025",
-    institution: "Coursera",
-  },
-  {
     degree: "Google UX Design Professional Certificate",
     date: "abr. 2025",
     institution: "Coursera",
@@ -28,23 +18,6 @@ export const formacionComp = [
     degree: "Creacion de Blogs y webs con Wordpress",
     date: "Ago. 2024 - Sept. 2024 (40 Horas)",
     institution: "Andalucía Vuela",
-  },
-  {
-    degree: "Inglés B1",
-    date: "Abr. 2024 - May. 2024",
-    institution: "Cámara de Comercio de Sevilla",
-  },
-  {
-    degree:
-      "Programación realidad virtual y realidad aumentada aplicables en entornos 5G",
-    date: "Ene. 2024 - Mar. 2024",
-    institution: "Integra Conocimiento e Innovación S.L.",
-  },
-  {
-    degree:
-      "Programación realidad virtual y realidad aumentada aplicables en entornos 5G",
-    date: "Ene. 2024 - Mar. 2024",
-    institution: "Integra Conocimiento e Innovación S.L.",
   },
   {
     degree: "Advanced React",
