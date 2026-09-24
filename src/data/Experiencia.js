@@ -1,7 +1,7 @@
 export const experience = [
    {
     title: "Programador informático",
-    date: "Dic. 2025 - Act.",
+    date: "Dic. 2025 - Sept. 2026",
     company: "Womack Communication group S.L",
     description: "Creación, modificación y mantenimiento de paginas web.",
   },
