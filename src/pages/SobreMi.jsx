@@ -20,15 +20,12 @@ import wordpressLogo from "../assets/software/wordpress.png";
 import visualStudioLogo from "../assets/software/visualStudio.png";
 import vsCodeLogo from "../assets/software/mVisualStudioCode.png";
 import unityLogo from "../assets/software/unity.png";
-import eclipseLogo from "../assets/software/eclipse.png";
-import illustratorLogo from "../assets/diseno/illustrator.png";
-import expressLogo from "../assets/diseno/Express.png";
-import figmaLogo from "../assets/diseno/figma.png";
-import virtualboxLogo from "../assets/otros/virtualbox.png";
-import vmwareLogo from "../assets/otros/vmware.png";
-import officeLogo from "../assets/otros/office.png";
-import libreOfficeLogo from "../assets/otros/libreOffice.png";
-import openOfficeLogo from "../assets/otros/openOffice.png";
+import illustratorLogo from "../assets/sistemadiseno/illustrator.png";
+import figmaLogo from "../assets/sistemadiseno/figma.png";
+import virtualboxLogo from "../assets/sistemadiseno/virtualbox.png";
+import vmwareLogo from "../assets/sistemadiseno/vmware.png";
+import windowsLogo from "../assets/sistemadiseno/windows.png";
+import linuxLogo from "../assets/sistemadiseno/linux.png";
 
 function SobreMi() {
   const fadeUp = {
@@ -51,8 +48,11 @@ function SobreMi() {
         <motion.h1 {...fadeUp}>Sobre mí</motion.h1>
 
         <motion.p {...fadeUp}>
-          Hola, soy <span className="text-sky">Rubén Fernández</span>,
-          desarrollador web con experiencia en{" "}
+          Hola, soy <span className="text-sky">Rubén Fernández</span>,{" "}
+          <span className="font-medium">
+            Desarrollador Frontend y Especialista WordPress
+          </span>{" "}
+          con una sólida base en{" "}
           <span className="font-medium">
             Sistemas Microinformáticos y Redes
           </span>
@@ -61,38 +61,28 @@ function SobreMi() {
         </motion.p>
 
         <motion.p {...fadeUp}>
-          Gracias a mi formación y experiencia, ofrezco{" "}
-          <span className="font-medium">
-            soluciones tecnológicas integrales
-          </span>
-          , combinando frameworks modernos y herramientas actuales para
-          desarrollar productos de calidad.
-        </motion.p>
-
-        <motion.p {...fadeUp}>
-          Me defino como una persona{" "}
-          <span className="font-medium">
-            responsable, proactiva y polivalente
-          </span>
-          , con gran capacidad de adaptación a nuevas metodologías. Enfrento los
-          desafíos con <span className="font-semibold">perseverancia</span> y
-          enfoque en soluciones efectivas, siempre comprometido con la mejora
-          continua y el crecimiento tanto personal como profesional.
+          Combino el desarrollo con frameworks modernos como{" "}
+          <span className="font-medium">React</span> y el despliegue ágil en
+          entornos <span className="font-medium">WordPress</span>, ofreciendo
+          soluciones tecnológicas integrales y de alta calidad. Me define una
+          mentalidad <span className="font-medium">proactiva</span>,
+          perseverante ante desafíos complejos y comprometida con el{" "}
+          <span className="font-semibold">crecimiento continuo</span>.
         </motion.p>
 
         {/* Lenguajes */}
         <motion.h2 {...fadeUp}>Lenguajes</motion.h2>
         <div className="skill-grid">
           {[
-            { name: "HTML", logo: htmlLogo },
-            { name: "CSS", logo: cssLogo },
             { name: "JavaScript", logo: jsLogo },
             { name: "TypeScript", logo: typeLogo },
             { name: "PHP", logo: phpLogo },
-            { name: "Python", logo: pythonLogo },
-            { name: "Java", logo: javaLogo },
+            { name: "HTML", logo: htmlLogo },
+            { name: "CSS", logo: cssLogo },
             { name: "MySQL", logo: mysqlLogo },
             { name: "Oracle SQL", logo: oracleLogo },
+            { name: "Python", logo: pythonLogo },
+            { name: "Java", logo: javaLogo },
             { name: "C#", logo: csharpLogo },
           ].map(({ name, logo }, i) => (
             <motion.div
@@ -114,8 +104,8 @@ function SobreMi() {
         {/* Frameworks */}
         <motion.h2 {...fadeUp}>Frameworks</motion.h2>
         <div className="skill-grid">
-          {[angularLogo, reactLogo, boostrapLogo].map((logo, i) => {
-            const names = ["Angular", "React", "Bootstrap"];
+          {[reactLogo, angularLogo, boostrapLogo].map((logo, i) => {
+            const names = ["React", "Angular", "Bootstrap"];
             return (
               <motion.div
                 className="skill-card"
@@ -139,11 +129,10 @@ function SobreMi() {
         <div className="skill-grid">
           {[
             { name: "WordPress", logo: wordpressLogo },
-            { name: "GitHub", logo: githubLogo },
             { name: "Git", logo: gitLogo },
-            { name: "Visual Studio", logo: visualStudioLogo },
+            { name: "GitHub", logo: githubLogo },
             { name: "VS Code", logo: vsCodeLogo },
-            { name: "Eclipse", logo: eclipseLogo },
+            { name: "Visual Studio", logo: visualStudioLogo },
             { name: "phpMyAdmin", logo: phpAdminLogo },
           ].map(({ name, logo }, i) => (
             <motion.div
@@ -163,38 +152,15 @@ function SobreMi() {
         </div>
 
         {/* Otros Software */}
-        <motion.h2 {...fadeUp}>Otros software</motion.h2>
+        <motion.h2 {...fadeUp}>Sistemas y diseño</motion.h2>
         <div className="skill-grid">
           {[
+            { name: "Figma", logo: figmaLogo },
+            { name: "Adobe Illustrator", logo: illustratorLogo },
             { name: "VirtualBox", logo: virtualboxLogo },
             { name: "VmWare", logo: vmwareLogo },
-            { name: "Office", logo: officeLogo },
-            { name: "Libre Office", logo: libreOfficeLogo },
-            { name: "Open Office", logo: openOfficeLogo },
-          ].map(({ name, logo }, i) => (
-            <motion.div
-              className="skill-card"
-              key={name}
-              {...cardAnim(i)}
-              whileHover={{
-                y: -4,
-                transition: { duration: 0.15, ease: "easeOut" },
-              }}
-            >
-              {" "}
-              <img src={logo} alt={name} />
-              <span>{name}</span>
-            </motion.div>
-          ))}
-        </div>
-
-        {/* Diseño Gráfico y UI */}
-        <motion.h2 {...fadeUp}>Diseño Gráfico y UI</motion.h2>
-        <div className="skill-grid">
-          {[
-            { name: "Adobe Illustrator", logo: illustratorLogo },
-            { name: "Adobe Express", logo: expressLogo },
-            { name: "Figma", logo: figmaLogo },
+            { name: "Windows", logo: windowsLogo },
+            { name: "Linux", logo: linuxLogo },
           ].map(({ name, logo }, i) => (
             <motion.div
               className="skill-card"
