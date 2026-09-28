@@ -44,7 +44,7 @@ function SobreMi() {
 
   return (
     <section className="sobremi-section">
-      <motion.div className="sobremi-content" {...fadeUp}>
+      <div className="sobremi-content" {...fadeUp}>
         <motion.h1 {...fadeUp}>Sobre mí</motion.h1>
 
         <motion.p {...fadeUp}>
@@ -206,7 +206,7 @@ function SobreMi() {
             </motion.div>
           ))}
         </div>
-      </motion.div>
+      </div>
     </section>
   );
 }
