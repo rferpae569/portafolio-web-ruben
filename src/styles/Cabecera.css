@@ -118,8 +118,8 @@ nav a:first-child:hover {
   transition: all 0.3s ease;
 }
 
-/* ========================= */ /* MÓVIL */ /* ========================= */
-@media (max-width: 768px) {
+/* ========================= */ /* MÓVIL y tablet */ /* ========================= */
+@media (max-width: 1100px) {
   .navbar {
     width: 100%;
   }
