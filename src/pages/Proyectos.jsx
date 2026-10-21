@@ -25,7 +25,7 @@ const Proyectos = () => {
     setOpenIndex(
       openIndex.type === type && openIndex.index === index
         ? { type: null, index: null }
-        : { type, index }
+        : { type, index },
     );
   };
 
@@ -58,8 +58,17 @@ const Proyectos = () => {
                 transition={{ duration: 0.4, ease: "easeInOut" }}
               >
                 <p>
-                  <strong>Fecha:</strong> {project.date}
+                  {" "}
+                  <strong>Fecha:</strong> {project.date}{" "}
                 </p>
+
+                {project.lastUpdated && (
+                  <p>
+                    {" "}
+                    <strong>Última actualización:</strong>{" "}
+                    {project.lastUpdated}{" "}
+                  </p>
+                )}
                 <p>
                   <strong>Descripción:</strong> {project.description}
                 </p>

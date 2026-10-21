@@ -15,6 +15,7 @@ export const webProjects = [
     repo: "https://github.com/rferpae569/pokeinfo",
     demo: "https://rferpae569.github.io/pokeinfo/",
     date: "ago. 2025 - oct. 2025",
+    lastUpdated: "oct. 2026",
   },
   {
     title: "Casino",
@@ -34,6 +35,7 @@ export const webProjects = [
     repo: "https://github.com/rferpae569/Casino",
     demo: "https://www.youtube.com/watch?v=mcEsuUCd7i4",
     date: "dic. 2024 - ene. 2025",
+    lastUpdated: "oct. 2026",
   },
   {
     title: "EscritorioVentanas",
