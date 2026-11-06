@@ -51,6 +51,7 @@ export const webProjects = [
     repo: "https://github.com/rferpae569/EscritorioVentanas",
     demo: "https://rferpae569.github.io/EscritorioVentanas/",
     date: "nov. 2024",
+    lastUpdated: "oct. 2026"
   },
   {
     title: "TouristSpain",
@@ -67,6 +68,7 @@ export const webProjects = [
     repo: "https://github.com/rferpae569/touristSpain",
     demo: "https://www.youtube.com/watch?v=F0n_Dt66lVM",
     date: "abr. 2024 - nov. 2024",
+    lastUpdated: "nov. 2026"
   },
   {
     title: "La primitiva",
@@ -96,6 +98,7 @@ export const webProjects = [
     repo: "https://github.com/rferpae569/CalculadoraReact",
     demo: "https://rferpae569.github.io/CalculadoraReact/",
     date: "jun. 2024",
+    lastUpdated: "oct. 2026"
   },
   {
     title: "InfoPersonRol",
@@ -111,6 +114,7 @@ export const webProjects = [
     repo: "https://github.com/rferpae569/InfoPersonRol",
     demo: "https://rferpae569.github.io/InfoPersonRol/",
     date: "jun. 2024",
+    lastUpdated: "oct. 2026"
   },
   {
     title: "AdivinaLaPelicula",
